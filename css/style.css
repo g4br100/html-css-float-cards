@@ -1,6 +1,7 @@
 body{
     margin-left: 160px;
     margin-right: 160px;
+    font-family: ;
 }
 
 header{
@@ -11,4 +12,9 @@ h1{
     font-size: 30px;
     color: red;
     text-align: center;
+}
+
+
+.row1{
+    float:left;
 }
