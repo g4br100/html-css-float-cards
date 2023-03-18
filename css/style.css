@@ -1,20 +1,48 @@
 body{
-    margin-left: 160px;
-    margin-right: 160px;
-    font-family: ;
+    font-family: "Fredoka", sans-serif;
+    box-sizing: border-box;
+    margin-left: 260px;
+    margin-right: 260px;
 }
+
+
 
 header{
     padding: 10px;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 45px;
     color: red;
     text-align: center;
 }
 
 
-.row1{
-    float:left;
+.col{
+    height:  120px;
+    background-color: brown;
+    border: solid 1px rgb(255, 255, 255);
+    margin: 0 35px 50px 0;
+}
+.col{
+    float: left;
+    width: calc((100%/3) - 40px);
+}
+
+
+.row{
+    border: 0px black;
+    padding-top: 40px;
+
+}
+
+.row::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+img{
+    width: 120px;
+    height: 120px;
 }
