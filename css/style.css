@@ -19,8 +19,8 @@ h1{
 
 
 .col{
-    height:  120px;
-    background-color: brown;
+    height:  100px;
+    background-color: rgb(24, 14, 48);
     border: solid 1px rgb(255, 255, 255);
     margin: 0 35px 50px 0;
 }
@@ -43,6 +43,33 @@ h1{
 }
 
 img{
-    width: 120px;
-    height: 120px;
+    float: left;
+    width: 100px;
+    height: 100px;
 }
+
+.text1{
+    display: block;
+    font-size: 20px;
+    margin-block-start: 10px;
+    margin-left: 118px;
+    color: white;
+}
+
+.text2{
+    display: block;
+    margin-left: 118px;
+    font-size: 16px;
+    line-height: 0;
+    color: white;
+}
+
+a{
+    font-size: 16px;
+    margin-left: 18px;
+    line-height: 0;
+    color: rgb(128, 196, 219);
+
+}
+
+
