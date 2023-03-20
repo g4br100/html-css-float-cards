@@ -13,16 +13,19 @@ header{
 
 h1{
     font-size: 45px;
-    color: red;
+    color: rgba(223, 22, 11, 0.814);
     text-align: center;
+    
 }
 
 
 .col{
     height:  100px;
     background-color: rgb(24, 14, 48);
-    border: solid 1px rgb(255, 255, 255);
-    margin: 0 35px 50px 0;
+    border: solid 0px rgb(255, 255, 255);
+    margin: 0 17.5px 50px 17.5px;
+    box-shadow:1px 1px 1px black, 0 0 6px black;
+
 }
 .col{
     float: left;
@@ -33,7 +36,6 @@ h1{
 .row{
     border: 0px black;
     padding-top: 40px;
-
 }
 
 .row::after{
@@ -70,6 +72,12 @@ a{
     line-height: 0;
     color: rgb(128, 196, 219);
 
+}
+
+.paragraf{
+    margin-left: 17.5px;
+    margin-right: 50px;
+    text-align: center;
 }
 
 
